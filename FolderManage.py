@@ -2,13 +2,13 @@ import os
 import shutil
 
 # Define the source and destination directories
-source_dir = "C:\\Users\\mirfa\\Downloads"
-video_dir = "C:\\Users\\mirfa\\Downloads\\Videos"
-zip_dir = "C:\\Users\\mirfa\\Downloads\\Zip"
-doc_dir = "C:\\Users\\mirfa\\Downloads\\Documents"
-pic_dir = "C:\\Users\\mirfa\\Downloads\\Pictures"
-prog_dir = "C:\\Users\\mirfa\\Downloads\\Programs"
-code_dir = "C:\\Users\\mirfa\\Downloads\\Code"
+source_dir = "path"
+video_dir = "path"
+zip_dir = "path"
+doc_dir = "path"
+pic_dir = "path"
+prog_dir = "path"
+code_dir = "path"
 
 # Create destination folders if they don't already exist
 os.makedirs(video_dir, exist_ok=True)
